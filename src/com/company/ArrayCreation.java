@@ -16,10 +16,18 @@ public class ArrayCreation {
         }else{
             double ret=0.0;
             for(int i=0;i<=numbers.length-1;i++){
-                System.out.println(numbers[i]);
-                ret+=numbers[i];
+                if(i==0) {
+                    System.out.println(numbers[i]);
+                    ret += numbers[i];
+                }else if(i==numbers.length-1){
+                    System.out.println(numbers[i]);
+                    ret += numbers[i];
+                }else if(i==numbers.length/2){
+                    System.out.println(numbers[i]);
+                    ret += numbers[i];
+                }
             }
-            double aver=((int)((ret/numbers.length)*100))/100;
+            double aver=((int)((ret/3)*100))/100;
             return aver;
         }
     }
