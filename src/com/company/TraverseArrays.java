@@ -49,6 +49,7 @@ public class TraverseArrays {
                 for(int j=i;j<=original.length-1;j++){
                     if(original[j]%2==1&&original[i]<original[j]){
                         original[i]=original[j];
+                        break;
                     }else{
                         original[i]=0;
                     }
