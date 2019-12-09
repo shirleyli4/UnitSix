@@ -35,11 +35,11 @@ public class TraverseArraysTest {
         assertArrayEquals(new int[]{5, 5, 3, 3}, TraverseArrays.zeroMax(new int[]{0, 5, 0, 3}));
     }
 
-    /*@Test
+    @Test
     public void selfDivisor() {
         assertArrayEquals(new int[]{11, 12, 15}, SelfDivisor.firstNumSelfDivisors(10, 3));
         assertArrayEquals(new int[]{22, 24, 33, 36, 44}, SelfDivisor.firstNumSelfDivisors(22, 5));
 
 
-    }*/
+    }
 }
