@@ -1,8 +1,10 @@
 package com.company;
-
+// test
 public class ArrayAlgorithms {
     public static void main(String[] args){
         int[] list1 = {-2,-9,-6,-8,-9,-3,-1};
+        //test
+        int a=4;
     }
 
     public static String printArray(int[] nums){
