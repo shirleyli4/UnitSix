@@ -1,9 +1,10 @@
-//Shirley Shuzhou Li, Birthday paradox program
+//Shirley Shuzhou Li, Birthday paradox program 1/8/20
 package com.company;
 
 public class Birthday {
     public static void main (String[] args){
         double same=0.0;
+
         for(int i=0;i<1000;i++) {
             if(hasDupes(dates(23))==true){
                 same++;
